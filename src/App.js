@@ -60,6 +60,7 @@ function App() {
             <label htmlFor='from-currency'>From Currency : </label>
             <select id='from-currency' value={fromCurrency} onChange={handlefromCurrencyChange}>
               <option value="USD">USD - United States Dollar</option>
+              <option value="INR">INR - Indian Rupee</option>
               <option value="EUR">EUR - Euro</option>
               <option value="GBP">GBP - British Pound Sterling</option>
               <option value="JPY">JPY - Japanese Yen</option>
@@ -203,7 +204,9 @@ function App() {
           <div className='input-container'>
             <label htmlFor='to-currency'>To Currency : </label>
             <select id='to-currency' value={toCurrency} onChange={handletoCurrencyChange}>
+            <option value="USD">USD - United States Dollar</option>
               <option value="EUR">EUR - Euro</option>
+              <option value="INR">INR - Indian Rupee</option>
               <option value="GBP">GBP - British Pound Sterling</option>
               <option value="JPY">JPY - Japanese Yen</option>
               <option value="CAD">CAD - Canadian Dollar</option>
